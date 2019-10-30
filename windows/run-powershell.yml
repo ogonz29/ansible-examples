@@ -2,7 +2,7 @@
 # This playbook tests the script module on Windows hosts
 
 - name: Run powershell script
-  hosts: all 
+  hosts: pnv012490.safeway.com 
   gather_facts: false
   tasks:
     - name: Run powershell script
